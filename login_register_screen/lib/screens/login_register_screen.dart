@@ -130,12 +130,14 @@ class _LoginRegisterScreenState extends State<LoginRegisterScreen>
           children: <Widget>[
             Expanded(
               child: ElevatedButton(
+                
                 onPressed: _onSignInButtonPress,
                 style: ElevatedButton.styleFrom(
                   primary: Colors.transparent,
                   onPrimary: Colors.transparent,
                   shadowColor: Colors.transparent,
                   onSurface: Colors.transparent,
+                  
                 ),
                 child: Text(
                   "Login",
@@ -149,7 +151,7 @@ class _LoginRegisterScreenState extends State<LoginRegisterScreen>
             ),
             Expanded(
               child: ElevatedButton(
-                style: ElevatedButton.styleFrom(
+                style: ElevatedButton.styleFrom(                  
                   primary: Colors.transparent,
                   onPrimary: Colors.transparent,
                   shadowColor: Colors.transparent,
@@ -176,7 +178,7 @@ class _LoginRegisterScreenState extends State<LoginRegisterScreen>
     return SingleChildScrollView(
       child: Container(
         decoration: BoxDecoration(
-          border: Border.all(width: 0.5, color: Colors.black26),
+          border: Border.all(width: 0.5, color: Colors.transparent),
         ),
         margin: EdgeInsets.only(left: 16, right: 16),
         child: Column(
